@@ -1,0 +1,298 @@
+*{
+    transition: all 0.05s ease-in-out;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald','Raleway',sans-serif;
+}
+
+.half-txt{
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size:3.6rem;
+}
+
+h2{
+    font-size: 2.6rem;
+}
+
+h2 span{
+    color: #2ecc71;
+}
+
+hr{
+    width: 75%;
+    border-top: 1px solid #5a5a5a;
+    margin: 0 auto;
+}
+
+.wrap-up{
+    min-height: 75vh;
+    padding: 10rem 7rem;
+}
+
+/*------------------------------------------------------------------
+    Navbar
+-------------------------------------------------------------------*/
+
+nav.navbar{
+background-color: #fff;
+padding: 0;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link{
+    padding: 1.2rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2ecc71;
+}
+
+
+
+/*------------------------------------------------------------------
+    buttons
+-------------------------------------------------------------------*/
+.btn-large {
+    padding: 20px 40px;
+    font-size: 16px;
+}
+
+.btn-medium {
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.btn-small {
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.btn-extra-small {
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.btn {
+    display: inline-block;
+    margin-right: 20px;
+    /*font-family: 'Abel', sans-serif;*/
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+/*dark*/
+.dark-bg {
+    background: #1b1b1b;
+}
+
+.btn-dark-solid {
+    color: #fff;
+    background: #222;
+}
+
+button{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover, button:focus{
+    background-color: #2ecc71;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
+}
+
+/*------------------------------------------------------------------
+    heading
+-------------------------------------------------------------------*/
+.heading-title {
+    margin-bottom: 100px;
+}
+
+/*------------------------------------------------------------------
+    Banner
+-------------------------------------------------------------------*/
+
+.full-banner {
+    position: relative;
+    background: url("../images/banner/232.jpg") fixed no-repeat center center !important;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    background: #000;
+}
+
+.full-banner .banner-title{
+    padding-top: 15rem;
+    text-shadow: 2px 2px 2px #464a4e;
+}
+
+/*------------------------------------------------------------------
+    Featured
+-------------------------------------------------------------------*/
+
+.featured-item{
+    padding: 30px 0 50px;
+}
+
+/*------------------------------------------------------------------
+    Page Content
+-------------------------------------------------------------------*/
+
+.page-content{
+    // padding: 75px 0;
+    // min-height: 100vh;
+}
+
+#fact-check{
+    // padding-bottom: 3rem;
+}
+
+#fact-check ul>li{
+    list-style-type: none;
+}
+
+.wrappin .wrap-up{
+    margin: 0 auto;
+    // padding: 7rem;
+    padding-top: 300px;
+    width: 100%;
+    min-height: 100vh;
+    background: url('../images/night-vision.jpg') fixed no-repeat center center !important;
+    background-size: cover !important;
+}
+
+/*------------------------------------------------------------------
+    subscribe
+-------------------------------------------------------------------*/
+#subscribe{
+    background: url('../images/green-abstract.jpg') fixed no-repeat center center;
+    background-size: cover;
+    padding-top: 175px;
+}
+
+.subscribe-box {
+    display: inline-block;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.subscribe-box,
+.full-width.subscribe-box .container {
+    position: relative;
+}
+
+.subscribe-form {
+    width: 60%;
+}
+
+.subscribe-form input {
+    width: 75% !important;
+    height: 52px;
+    border: 1px solid #fff;
+    background: #fff;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
+}
+
+.subscribe-form input:focus {
+    border: 1px solid #222;
+    box-shadow: none;
+}
+
+.subscribe-form .btn {
+    float: right;
+    margin-right: 0;
+}
+
+.text-center .subscribe-info {
+    padding-right: 0;
+}
+
+.subscribe-box.text-center .subscribe-info,
+.subscribe-box.text-center .subscribe-form {
+    width: 100%;
+}
+
+.subscribe-box.text-center .subscribe-info {
+    margin-bottom: 50px;
+}
+
+.subscribe-box.text-center .subscribe-form input,
+.subscribe-box.text-center .subscribe-form .btn {
+    display: inline-block;
+    float: none;
+    margin: 0 5px;
+    border: none;
+}
+
+.subscribe-box.border-box .subscribe-form input,
+.gray-bg {
+    background: #f8f8f8;
+}
+
+.subscribe-box.dark-bg {
+    background: #222;
+}
+
+.light-txt {
+    color: #fff !important;
+}
+
+.text-center .subscribe-info span {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer{
+    color: #6f7273;
+    background-color: #222;
+}
+
+footer .copyright-sub-title {
+    font-size: 14px;
+    color: #d0d0d0;
+    padding: 3rem;
+}
+
+.social-link>a {
+    line-height: 2em;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #5a5a5a;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.social-link > a:focus, .social-link > a:hover {
+    color: #fff;
+    border-color: transparent;
+    background-color: #5a5a5a;
+}
+
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
